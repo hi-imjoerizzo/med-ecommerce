@@ -7,48 +7,64 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-	<header>
-		<ul>
-			<li>Home</li>
-			<li>About</li>
-		</ul>
-	</header>
+	<div id="main">
 
-	<div id="stripeCheckoutButton">
-		<button type="button">Checkout</button>
-	</div>
-	<div id="rainWebsite">
-		<button type="button">Rain Website</button>
-	</div>
+		<header class="navigation" role="banner">
+		  <div class="navigation-wrapper">
+		    <a href="javascript:void(0)" class="logo">
+		      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo Image">
+		    </a>
+		    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+		    <nav role="navigation">
+		      <ul id="js-navigation-menu" class="navigation-menu show">
+		        <li class="nav-link"><a href="javascript:void(0)">Products</a></li>
+		        <li class="nav-link"><a href="javascript:void(0)">About</a></li>
+		        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+		      </ul>
+		    </nav>
+		    <div class="navigation-tools">
+		      <div class="search-bar">
+		        <form role="search">
+		          <input type="search" placeholder="Enter Search" />
+		          <button type="submit">
+		            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png" alt="Search Icon">
+		          </button>
+		        </form>
+		      </div>
+		    </div>
+		  </div>
+		</header>
 
-	<div class="heroImages">
-		<ol>
-			<li><img src=""></li>
-			<li><img src=""></li>
-		</ol>
-		<p>Product Description - Stripe is a simple way to accept payments online. But do you want to know the best part about it? You can integrate it seamlessly into your site, and you don't need a merchant account or gateway. Stripe handles everything, including storing cards, subscriptions, and direct payouts to your bank account.</p>
-		<br>
-		<p>Product Description - In this class Saikat Chakrabarti (Lead Engineer at Stripe), along with Christopher Castiglione, will develop a website that hooks into the Stripe API and processes payments.</p>
+
+			<button type="button" id="stripeCheckoutButton">Checkout</button>
+			<button type="button" id="rainWebsite">Rain Website</button>
+
+			<div class="heroImages">
+				<img id="core" src="images/core.png">
+				<img id="soul" src="images/soul.png">
+			</div>
+
+				<p>SOUL is the first porduct of its kind in the health market.<br>
+				A catagory trendsetter and catalyst for innumerable seed-based wellness products. Soul harnesses and combies the concentrated nutrition of all kinds of seeds, Creating a perfect blend for health. Seeds Included: Black Cumin, Black Rasberry, & Chardonnay Grape.</p>
+				<br>
+				<p>
+				CORE is the second product to be introduced by Rain International.<br>
+				It contains the nutrition of high-quality greens and dense seed blends, all in a 1-ounce packet. Core has gained a clinical reputation for improving health functions and works together with Soul to provide what your body needs.
+				</p>
+
+			<div class="additionalProducts">
+				<img src="">
+				<p>Product Description - In this class Saikat Chakrabarti (Lead Engineer at Stripe), along with Christopher Castiglione, will develop a website that hooks into the Stripe API and processes payments.</p>
+			</div>
+		</div>
+		<footer>
+			<ul class="socMedia">
+				<li><button type="button">Click Me!</button></li>
+				<li><button type="button">Click Me!</button></li>
+				<li><button type="button">Click Me!</button></li>
+				<li><button type="button">Click Me!</button></li>
+			</ul>
+		</footer>
 	</div>
-	<div class="additionalProducts">
-		<img src="">
-		<p>Product Description - In this class Saikat Chakrabarti (Lead Engineer at Stripe), along with Christopher Castiglione, will develop a website that hooks into the Stripe API and processes payments.</p>
-	</div>
-	<div class="additionalProducts">
-		<img src="">
-		<p>Product Description - In this class Saikat Chakrabarti (Lead Engineer at Stripe), along with Christopher Castiglione, will develop a website that hooks into the Stripe API and processes payments.</p>
-	</div>
-	<div class="additionalProducts">
-		<img src="">
-		<p>Product Description - In this class Saikat Chakrabarti (Lead Engineer at Stripe), along with Christopher Castiglione, will develop a website that hooks into the Stripe API and processes payments.</p>
-	</div>
-	<footer>
-		<ul class="socMedia">
-			<li><button type="button">Click Me!</button></li>
-			<li><button type="button">Click Me!</button></li>
-			<li><button type="button">Click Me!</button></li>
-			<li><button type="button">Click Me!</button></li>
-		</ul>
-	</footer>
 </body>
 </html>
