@@ -4,10 +4,6 @@
 
 //grid begins
 
-
-
-
-
 @mixin grid-item-columns($columns) {
   width: (100% / 12) * $columns;
 }
